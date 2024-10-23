@@ -3,3 +3,5 @@ pandas
 tensorflow
 matplotlib
 seaborn
+dotenv
+pickle
