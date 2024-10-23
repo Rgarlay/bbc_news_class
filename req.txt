@@ -3,5 +3,4 @@ pandas
 tensorflow
 matplotlib
 seaborn
-dotenv
-pickle
+python-dotenv

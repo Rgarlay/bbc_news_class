@@ -4,10 +4,6 @@ from src.news_project.exception import CustomException
 from src.news_project.logger import logging
 import pandas as pd
 from dotenv import load_dotenv
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import r2_score
-import pymysql
-
 import pickle
 import numpy as np
 
