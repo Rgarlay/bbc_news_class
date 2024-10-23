@@ -3,8 +3,9 @@ import os
 import sys
 from ..logger import logging
 from ..exception import CustomException
+from src.news_project.components.data_transformation import MainTransform
+from src.news_project.components.data_transformation import datatransformation
 
-#from transformation import MainTransform
 
 
 
@@ -61,7 +62,7 @@ if __name__ =="__main__":
     train_data, test_data,labels_data = obj.InitiatinIngestion()
     logging.info("Data ingestion process completed.")
         
-#    data_transoformation  = MainTransform()
-#    train_arr,test_arr,addditional_info = data_transoformation.data_transform_initiate(train_data1,test_data1,labels_data1)
+    data_transoformation  = MainTransform()
+    train_arr,test_arr,_= data_transoformation.data_transform_initiate(train_data,test_data,labels_data)
 
 

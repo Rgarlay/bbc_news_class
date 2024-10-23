@@ -4,3 +4,9 @@ tensorflow
 matplotlib
 seaborn
 python-dotenv
+nltk
+keras
+ipykernel
+dill
+scikit-learn
+tensorflow-text
